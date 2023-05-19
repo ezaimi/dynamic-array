@@ -1,3 +1,3 @@
-# dynamic-array
+# Dynamic Array Visualization
 
-Visualization of a Dynamic Array
+Project ongoing
