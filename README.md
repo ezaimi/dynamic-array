@@ -4,7 +4,7 @@ Project Status:
 
 This project aims to provide a visual representation of a dynamic array using HTML, CSS, and JavaScript. The dynamic array is a data structure that automatically resizes itself when it becomes full, allowing for efficient storage and retrieval of elements.
 
-###Features:
+### Features:
 
 1. Interactive UI: The project includes an interactive user interface where users can perform various operations on the dynamic array.
 2. Add Elements: Users can add elements to the dynamic array, and if the array is full, it will automatically resize to accommodate new elements.
