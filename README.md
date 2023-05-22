@@ -14,4 +14,5 @@ This project aims to provide a visual representation of a dynamic array using HT
 6. Array Visualization: The current state of the dynamic array is visually displayed, allowing users to see the elements and their positions in the array.
 7. Array Information: The project displays relevant information about the dynamic array, such as the current number of elements and the array's capacity.
 
-By visualizing the dynamic array, this project helps users understand how the array expands and shrinks dynamically to accommodate data efficiently. It serves as a learning tool to grasp the concept and behavior of dynamic arrays in a more intuitive and interactive manner.
+By visualizing the dynamic array, this project helps users understand how the array expands and shrinks dynamically to accommodate data efficiently. 
+It serves as a learning tool to grasp the concept and behavior of dynamic arrays in a more intuitive and interactive manner.
