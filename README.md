@@ -1,6 +1,6 @@
 ## Dynamic Array Visualization
 
-Project Status: 
+Project Status: Ongoing
 
 This project aims to provide a visual representation of a dynamic array using HTML, CSS, and JavaScript. The dynamic array is a data structure that automatically resizes itself when it becomes full, allowing for efficient storage and retrieval of elements.
 
