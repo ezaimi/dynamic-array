@@ -1,3 +1,3 @@
-# Dynamic Array Visualization
+### Dynamic Array Visualization
 
 Project ongoing
