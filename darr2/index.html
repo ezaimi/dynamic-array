@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Array Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="container">
+
+        <nav class="navbar">
+            <h1>Dynamic Array Visualization</h1>
+        </nav>
+        <div class="array-container" id="arrayContainer"></div>
+        <div class="input-group">
+            <label for="sizeInput">Size:</label>
+            <input type="number" id="sizeInput" value="5">
+            <button class="btn" onclick="handleResizeButtonClick()">Resize</button>
+        </div>
+        <div class="input-group">
+            <button class="btn" onclick="handleSizeButtonClick()">Size</button>
+            <button class="btn" onclick="handleCapacityButtonClick()">Capacity</button>
+            <button class="btn" onclick="handleIsEmptyButtonClick()">IsEmpty</button>
+        </div>
+        <div class="input-group">
+            <label for="indexInput">Get Element at Index:</label>
+            <input type="number" id="indexInput">
+            <button class="btn" onclick="handleGetElementButtonClick()">Get Element</button>
+            <label class="output">
+                Result:
+                <span id="getElementResult"></span>
+            </label>
+        </div>
+        <div class="input-group">
+            <label for="setIndexInput">Set Element at Index:</label>
+            <input type="number" id="setIndexInput">
+            <label for="setElementInput">Value:</label>
+            <input type="number" id="setElementInput">
+            <button class="btn" onclick="handleSetElementButtonClick()">Set Element</button>
+        </div>
+        <div class="input-group">
+            <label for="addElementInput">Add Element:</label>
+            <input type="number" id="addElementInput">
+            <button class="btn" onclick="handleAddElementButtonClick()">Add Element</button>
+        </div>
+        <div class="input-group">
+            <label for="insertIndexInput">Insert Element at Index:</label>
+            <input type="number" id="insertIndexInput">
+            <label for="insertElementInput">Value:</label>
+            <input type="number" id="insertElementInput">
+            <button class="btn" onclick="handleInsertElementButtonClick()">Insert Element</button>
+        </div>
+        <div class="input-group">
+            <label for="removeIndexInput">Remove Element at Index:</label>
+            <input type="number" id="removeIndexInput">
+            <button class="btn" onclick="handleRemoveElementButtonClick()">Remove Element</button>
+        </div>
+        <div class="input-group">
+            <label for="containsInput">Contains Element:</label>
+            <input type="number" id="containsInput">
+            <button class="btn" onclick="handleContainsButtonClick()">Contains</button>
+        </div>
+        <div class="input-group">
+            <button class="btn" onclick="handleClearButtonClick()">Clear</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
